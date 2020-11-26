@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_02"
+    tools:context=".noviembre">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="377dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954">
+
+        <TextView
+            android:id="@+id/receipt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:text="Una de las fiestas tradicionales en Cusco es el Día de Todos los Santos, día en el que tal vez nos aferremos a la idea de que algún día el cielo será nuestra futura patria. Aunque son muy contados los que tienen grandes ambiciones de ser santos o imitar a los incontables cristianos, declarados o no, como santos por la Iglesia Católica. Fecha del Calendario Religioso. En nuestra cultura, se celebra el 1 de noviembre y lo festejan quienes aún permanecen vivos en este mundo terrenal; mientras que el 2 de noviembre se recuerda el día de los difuntos con romería a los cementerios con grupos de música y danza. Los deudos delante de la tumba del difunto brindan con abundante chicha, cerveza y le ofrecen la comida, frutas y todo aquello que en vida degustaba agradablemente el finado. La esperanza que existe vida más allá de la vida, hace que las familias cusqueñas armen un descanso, una forma de altar con las comidas y bebidas que más agradaban a nuestros seres queridos que tuvieron que adelantarse en el camino de la vida. Cuenta la tradición andina, que el 1 de noviembre a medio día, los muertos vuelven del más allá, para visitar a sus parientes y a todo su pueblo y también para disfrutar del altar y ver si aún los recuerdan en la tierra, pero deberán retornar al otro mundo antes del mediodía del 2 de noviembre. La muerte en el sur de los andes, en especial en Cusco, es concebida como una continuidad de la vida. Es un paso más que da el runa o ser humano en forma natural de esta vida a la otra vida. Quienes aún tienen la suerte de escuchar la tradición oral de sus abuelos y padres, seguramente habrán oído hablar del temporal que refleja el estado de las almas benditas; si a esa hora de la llegada llueve, significa que los difuntos están llegando con lágrimas, o sea, llorando porque sus familiares durante el año no se acordaron de ellos. Pero si es un día de sol, es porque ellos llegan con alegría pues sus familias aún los recuerdan. Al día siguiente, 2 de noviembre, los cementerios se poblarán de vida como en ningún otro día del año y el costo de las flores alcanzará los cielos. Muchos esposos que nunca se atrevieron a regalar en vida un ramo de flores a sus esposas e hijos que nunca lograron regalar una canción a sus madres, lo harán frente a sus tumbas. Compartirán largas charlas que no fueron posibles en vida del tal forma que hacen posible traspasar las fronteras de la muerte. Los cementerios o panteones se llenarán de personas que rezan por sus difuntos, algunos rezan por todos los difuntos, también por aquellos de los que nadie se acuerda. Al parecer lo comercial va camino a convertirse en tradición, varios mercados y plazas, como la Plaza Tupac Amaru, estará repleta de kioskos improvisados que deleitan a niños y adultos con el riquísimo lechón, un plato que trae carne de cerdo asada al horno y unos tamales de maíz cusqueño. Mientras que las tanta wawas y coloridos pan caballos se hacen irresistibles ante los ojos de los más pequeños de la familia y en muchos lugares, se realiza la preparación de tanta wawas enormes. La Fiesta de Todos los Santos, 1 de noviembre y la fiesta de los difuntos, 2 de noviembre, aún es parte de ese Cusco mágico y aunque las contradicciones son inevitables la ciudad cosmopolita se transforma y asume como suyo fiestas como el Halloween, que, aunque muchos no lo sepan, tiene como parte de su origen esta celebración católica, mezclada con la tradición céltica, después de todo, la palabra halloween era originalmente Halloween que a su vez era una forma acortada de: All Hallows Even, lo cual se deriva del inglés antiguo que quiere decir: Eve of All Saints Day, en español: La víspera del Día de Todos los Santos ."
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </ScrollView>
+
+    <ahmed.easyslider.EasySlider
+        android:layout_width="387dp"
+        android:layout_height="284dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        android:id="@+id/sliderId">
+
+    </ahmed.easyslider.EasySlider>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

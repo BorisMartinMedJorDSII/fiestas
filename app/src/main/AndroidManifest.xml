@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fiestas">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".diciembre" />
+        <activity android:name=".noviembre" />
+        <activity android:name=".septiembre_srhuanca" />
+        <activity android:name=".septiembre_virnativ" />
+        <activity android:name=".agosto" />
+        <activity android:name=".julio" />
+        <activity android:name=".junio_inti" />
+        <activity android:name=".junio_corpus" />
+        <activity android:name=".junio_qoyllo" />
+        <activity android:name=".mayo" />
+        <activity android:name=".abril" />
+        <activity android:name=".febrero" />
+        <activity android:name=".sp_03" />
+        <activity android:name=".sp_02" />
+        <activity android:name=".sp_01">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

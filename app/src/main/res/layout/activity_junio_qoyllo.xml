@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_02"
+    tools:context=".junio_qoyllo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="377dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954">
+
+        <TextView
+            android:id="@+id/receipt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:text="La peregrinación al santuario del Sr. de Ccoylloritti se realiza todos los años en el mes de mayo o junio la fecha no es exacta debido al calendario andino, pero esta entre estos dos meses. Los pobladores del distrito de Ocongate (Quispicanchis), en el departamento de Cusco, realizan un rito cuyo símbolo externo es la imagen de Cristo, pero su objeto de fondo es la integración del hombre con la naturaleza, las personas de este lugar son devotos del Taytacha Qoyllur Riti (El señor de la Nieve Brillante). Esta es una antigua costumbre religiosa sólo practicada por los habitantes de los Andes. Cada año, unos días antes de la celebración del Corpus Christi, cada pueblo pequeño o clan envía una delegación de coloridos bailarines y pabluchas a la Capilla del Señor de Qoyllur ritty. El ritual, asociado con la fertilidad de la tierra y con la adoración a los Apus (cerros, dioses tutelares), forma parte de una de las fiestas de naciones indígenas más grande de América. La ceremonia principal se realiza al pie del nevado Ausangate, el ritual consiste en una peregrinación de pastores, comerciantes y curiosos que se reúnen en el santuario de Sinakara en el pueblo de Mawayany, a 4600 metros sobre el nivel del mar. Según la creencia, el Niño Jesús, disfrazado de pastorcito, se le apareció a un niño indígena, Marianito Mayta, y ambos se convirtieron en amigos. Cuando los padres los encontraron vestidos de ricos atavíos avisaron al párroco del lugar, Pedro de Landa, quien intentó capturarlo pero sin éxito, pues en el lugar del Niño apareció una piedra. Marianito murió de inmediato y la imagen del Señor de Qoyllur Riti se fijó sobre la roca. La festividad del Sr. de Ccoylloritti es una de las festividades católicas fusionadas con lo andino, ubicado en el paraje de Sinacara que congrega un sin fin de personas peregrinantes devotas de la imagen milagrosa, poblaciones enteras del sur del Perú, llamado también Naciones que son organizaciones de comparsas y devotos, vienen de distintos lugares de las provincias del Cusco. A pesar de la imposición de la religión católica los andinos no olvidaron sus tradiciones religiosas, manteniéndolas casi en forma escondida. La naturaleza, para ellos, tenía sus propias representaciones espirituales: el Apu, espíritu del cerro; la Pachamama, la tierra y el Inti, el Sol como divino hacedor. La fiesta empieza el día de la Santísima Trinidad, cuando más de 10.000 peregrinos ascienden hasta el límite de las nieves perpetuas. Se alcanza temperaturas mínimas de -4 °C. El camino se acompaña con una procesión, fuegos artificiales y el mercado simbólico de las Alacitas (feria de artesanías en miniatura). Luego de cinco horas de caminata se llega al santuario del Sr. de Ccoylloritti en seguida se tiene que hacer el saludo de honor a la imagen de cristo milagroson en horas de la tarde todas las comparsas hacen su entrada oficial por Naciones se observa un lleno total casi de 200 comparsas dando su saludo oficial que dura casi toda la noche, acompañan distintos bailarines que simbolizan a diversos personajes míticos. Los pablitos o ucucos que son los intermediarios entre el Señor de Qoylloriti y los hombres y los que mantienen la disciplina durante los actos litúrgicos, son personas vestidas de oso (traje negro hecho de tela gruesa y lana, con un chullo) que hacen guardar orden y la Paz que también los llaman los soldados del señor. Al día siguiente, día de la serenata que inicia con ceremonias litúrgicas en honor a cristo milagroso o también llamado cristo campesino. En horas de la tarde comienza la serenata con un espectáculo de danzas desfilando por el atrio e interior del santuario; a media noche un grupo de fuertes Queros, pobladores de la que quizá es la más pura comunidad quechua del Perú, disfrazados como pabluchas, parte hacia las cumbres del nevado (6.362 m.s.n.m.) en busca de la Estrella de la Nieve que se encuentra encerrada en sus entrañas y también lugar donde se hacen los bautizos de los nuevos danzarines y los juzgamientos por parte de los celadores donde castigan a aquellas personas que han cometido errores y que ya se enteran al pie del nevado puesto que se manda sobres secretos que ahí arriba se lee. De regreso a sus comunidades, estos fuertes pobladores llevan sobre sus espaldas grandes bloques de hielo para regar simbólicamente sus tierras con el agua sagrada del Ausangate. El día central luego de hacer el ritual a la salida del sol se baja desde el nevado en caravana encabezado por el calvario con dirección al santuario; horas mas tarde se efectúa la misa central posteriormente la procesión del Sr. de Ccoyllorritti representado por el Sr. de Tayancani, concluye con la despedida de cada comparsa dando cánticos o (Watascama) al señor finalmente retornan hacia la población de Mahuayani, para luego embarcarse a sus lugares de origen. El fin de la procesión tiene lugar en la antigua capital inca del Cusco con las procesiones del Corpus Christi, las calles y plazas están repletas de personas, música y color."
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </ScrollView>
+
+    <ahmed.easyslider.EasySlider
+        android:layout_width="387dp"
+        android:layout_height="284dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        android:id="@+id/sliderId">
+
+    </ahmed.easyslider.EasySlider>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

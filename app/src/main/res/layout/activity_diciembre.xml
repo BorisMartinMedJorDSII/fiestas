@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_02"
+    tools:context=".diciembre">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="377dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954">
+
+        <TextView
+            android:id="@+id/receipt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:text="La celebración mundial de la navidad en el Cusco adquiere contornos especiales, pues en torno a ella hay diversas actividades. La ciudad vive un ambiente festivo con el arreglo de los balcones del Centro Monumental, con luces, guirnaldas y motivos navideños. La Municipalidad desde los primeros días del mes de diciembre coloca hermosas alegorías luminosas que alegran las noches de la ciudad. Cada 24 de diciembre, en la Plaza Mayor se realiza la feria más grande de arte popular y costumbrista del Perú: La feria del Santurantikuy, donde centenares de artesanos provenientes de distintos lugares del Cusco y de otras regiones del país, exponen hermosos y originales trabajos fruto de su espíritu creador a lo largo del año y los cuales adornarán los nacimientos de hogares e instituciones. El Niño Manuelito es el personaje central de la fiesta de la navidad en Cusco. SANTURANTIKUY, Poco después de instaurada la colonia española en Perú, en la ciudad de Cusco, tras la derrota -o decaimiento- de la sociedad incaica y ya asimilada la religión católica, se comenzó a celebrar cada 24 de diciembre, en la Plaza Mayor de cada pueblo o comunidad, la fiesta del Santurantikuy; feria de arte popular, en que la palabra quechua lo dice todo: Santu (santos)y Ticuy (venta). Muchas de las crónicas de la colonia, que fueron escritas alrededor del siglo XVII, relatan que los sacerdotes españoles, recorrían los caseríos tratando de catequizar a los indios nativos. Justamente en épocas de Navidad, les hablaban de Enmanuel, el niño que nació en Belén y cuyo nombre quiere decir Dios con nosotros. A pesar de la imposición de la religión católica los andinos no olvidaron sus tradiciones religiosas, manteniéndolas casi en forma escondida. La naturaleza, para ellos, tenía sus propias representaciones espirituales: el Apu, espíritu del cerro; la Pachamama, la tierra y el Inti, el Sol como divino hacedor. En el Cusco, una ciudad con gran tradición indígena, la imagen del Niño Manuel, es venerada todos los años durante las Fiestas Navideñas, mediante una festividad que se denomina Santurantikuy. Esta celebración se prepara hasta con seis meses de anticipación -según los artesanos que nos comentan-. Llegado el momento, todo se escenifica en la Plaza de Armas, donde artesanos de todas las ciudades aledañas, llegan con sus creaciones, que dan vistosidad a una feria que visitan miles de personas. La imagen del niño Manuelito, ha sido creada por lo artesanos con diferentes actitudes. Algunos tienen el rostro con chapas rojas y una mirada pícara. Su cuerpo, parece tener piel de indio y mantiene sus brazos abiertos en señal de recibimiento. Otros lo han esculpido, cansado y casi dormido; a veces pensativo y risueño. También los hay gateando con la cabeza tratando de erguirse. Antaño, el Santurantikuy connotaba la presencia de altares y terminaba a las tres o cuatro de la tarde. Ese mismo día, y desde tempranas horas de la mañana, comenzaban a llegar los artesanos, algunos desde comunidades lejanas, con sus mantas cargadas de niños Manuelitos -como le llaman al niño Jesús- pastores, reyes magos, vírgenes, angelitos y todo aquello que pueda incorporarse al nacimiento. Acuden a comprar algunas piezas para regalar y otras para incorporar, cada año una pieza, a sus nacimientos. Hoy se ha convertido en una de las más grandes ferias artesanales del Perú. Es en las veredas de la Plaza Mayor del Cusco, donde los artistas tienden sus mantas, siguiendo la costumbre de las tradicionales ferias andinas. Santurantikuy, en un mercado provisional donde imagineros y artesanos ofrecen las más diversas figurillas para alegrar las fiestas navideñas y acompañar los pesebres o nacimientos que se arman en las casas y parroquias. Se puede observar todo tipo de objetos artesanales como tallas en madera, cerámica y retablos. Durante las noches se venden los tradicionales ponches para calentar el cuerpo. Actualmente, la feria de arte popular Santurantikuy es organizada por la Empresa Municipal de Festejos del Cusco, EMUFEC S.A., dándole un ordenamiento y sentido funcional con espacios debidamente señalizados y delimitados por especialidades, siendo éstas: Cerámica Decorativa, Imaginería, Trabajos en Madera y corteza de árboles, Miniaturas y filigranas, Cerería Artística, Alto Relieve, Platería, Trabajos en Piedrav, Trabajos en cuero, Escultura, Pinturas de la Escuela Cusqueña, Niños Manuelitos, Trabajos en Flores Secas."
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </ScrollView>
+
+    <ahmed.easyslider.EasySlider
+        android:layout_width="387dp"
+        android:layout_height="284dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        android:id="@+id/sliderId">
+
+    </ahmed.easyslider.EasySlider>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_02"
+    tools:context=".agosto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="377dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954">
+
+        <TextView
+            android:id="@+id/receipt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:text="Las ceremonias de Ofrenda a la Pachamama se realizan durante el mes de agosto siendo el primer dia del mes que da inicio a esta importante ceremonia de creencia andina, Las ceremonias de ofrendas, comúnmente conocidas por la población andina como pagos a la Tierra o Pachamama, son rituales de origen ancestral que son parte de un sistema de reciprocidad entre el mundo material y el mundo espiritual. Es un ritual cuya finalidad es devolver a la Madre Tierra lo que te ha dado y lo que podemos aspirar a nuestros deseos más profundos acerca de la vida, lo que queremos lograr en nuestra vida y lo que queremos para nuestros seres queridos, esta ceremonia se realiza el primer día del mes de agosto y durante todo el mes. Las ceremonias a la Pachamama son de básicamente de dos tipos, en los hogares se realizan ofrendas particulares y en las cumbres se realizan ofrendas comunitarias donde los sacerdotes andino realizan las ceremonias ancestrales, para que la Pachamama, sacie su hambre y les otorgue bendiciones. Las ofrendas a la madre tierra tienen como origen fundamental la relación entre el hombre andino, específicamente el campesino, y la madre tierra o Pachamama. La ofrenda es una manera simbólica en la cual el hombre devuelve a la Pachamama lo que ha sacado de ella. La finalidad primordial es el restablecimiento de la reciprocidad entre el ser humano y la naturaleza. La finalidad primordial es el restablecimiento de la reciprocidad entre el ser humano y la naturaleza. Con la ofrenda o pago el campesino pide permiso a la Pachamama para poder abrirla y devuelve de manera simbólica algo de sus frutos. Estos rituales también son destinados al Apu o espíritu de la montaña a través del despacho. El Apu es el aspecto masculino de la naturaleza y la pachamama es el aspecto femenino. El Apu protege a los animales y a los hombres y fecunda a la Pachamama. La ofrenda es un acto de reciprocidad cósmica, es la realización de la justicia universal y cósmica, el cumplimiento de un deber mutuo. El rompimiento de este principio causaría serias distorsiones del equilibrio en los sistemas naturales, sociales y religiosos. Para el hombre andino las ofrendas tienen un sentido de reconciliación con las fuerzas espirituales con el fin de evitar desgracias, asimismo representan ritos de paso. Estos rituales de ofrenda son dirigidos por especialistas en la religiosidad andina y de acuerdo al aprendizaje adquirido y a las facultades obtenidas por estos personajes, se les puede clasificar en diferentes jerarquías o niveles de sacerdocio. El proceso de aprendizaje para ir avanzando en los grados es largo y complejo, lleno de pruebas. El primer peldaño es el pampamisayoq, el que tiene su mesa de trabajo en la pampa.El Altomisayoq o Hatunmisayoq es aquel que es considerado dentro del rango sacerdotal y su labor es de carácter profético, carismático y místico. Se dice que tiene el poder de comunicación con entidades o seres espirituales del mundo religioso, para llegar a este rango pasa por una prueba llamada Karpay y luego de eso se consagra al servicio de un Apu determinado, la condición es temporal y puede perderse por un mal comportamiento, como por ejemplo el mal uso del poder, cobro de dinero para el enriquecimiento propio o conducta sexual reprobable.Existe otro rango más elevado en el sacerdocio andino que es el de Kuraq Akulleq quien tiene la capacidad de hacer contacto con fuerzas espirituales más elevadas. Son elaborados por los sacerdotes andinos los se tiene que saber hacer la manta ceremonial y el papel de despacho donde se envuelve la ofrenda, tiene que saber escoger y ordenar las hojas de coca para los k'intus (tres hojas de coca que se usan de manera ceremonial) que se usan en las ofrendas y también debe conocer todos los otros elementos que entran en el despacho, como las conchas marinas, semillas, huayruros y otros elementos, dependiendo de la intención del despacho, pago u ofrenda. Se pueden hacer también curaciones con plantas medicinales, adivinaciones y diagnósticos mágicos, leer la hoja de coca y ver la mala o buena suerte. Pueden proporcionar amuletos, talismanes y otros similares."
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </ScrollView>
+
+    <ahmed.easyslider.EasySlider
+        android:layout_width="387dp"
+        android:layout_height="284dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        android:id="@+id/sliderId">
+
+    </ahmed.easyslider.EasySlider>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_02"
+    tools:context=".septiembre_virnativ">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="377dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954">
+
+        <TextView
+            android:id="@+id/receipt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:text="La Virgen Natividad o Nuestra Señora de la Almudena, es una de las representaciones más icónicas de Santa María Virgen y su devoción es ampliamente difundida en todo el Perú y sobre todo Cusco, los días clave de las fiestas son: 7, 8 y 9 de setiembre; sin embargo la celebridad inicia desde el 29 de agosto, con la entrada tradicional denominada: tika apakuy (entrada de flores), cuyo recorrido inicia en la plaza San Francisco con dirección al templo de Almudena. El día 29 se realiza la habitual procesión de la Virgen, en horas de la madrugada (3 a.m.), dura aproximadamente cuatro horas, delegaciones eclesiásticas, civiles y autoridades acompañan a la Virgen entre cánticos y oraciones; posteriormente los días siguientes, la Virgen es venerada mediante eucaristías y misas. La imagen de la Virgen de Natividad de Almudena, Cusco, Es una obra artística, esculpida por el artista indígena Juan Tomás Tuyro Túpac, una réplica de la virgen de la Almudena de Madrid (España), realizado por encargo de obispo Manuel Mollinedo y Angulo (1699). La imagen está tallada con el rostro descubierto y el cuerpo cubierto de ropa, lleva entre los brazos al Niño Jesús; detrás de la Virgen, acompaña un Ángel, portando una sombrilla protectora, sale en procesión en días festivos, en especial en Corpus Christi y en su aniversario. El día 7 de setiembre, después de la Santa Misa, se realiza la entrada de donaciones (jurkas), por parte de aquellas personas que fueron comprometidos meses atrás, dichas donaciones son entregados a los mayordomos como: ciriones, ropaje para la Virgen, Alimentos, Cohetes y bombardas, Dinero en efectivo, entre otros. La entrada de esta fastuosa fiesta comienza el 15 de julio, se da inicio con el estallido de un cohete, el mismo que es contestado por cameretazos y repique de campanas, la interpretación de dianas a cargo de las bandas musicales; seguidamente se efectúa la entrada de comparsas y el cera apaycuy, la noche es oportuna para iniciar el qonoy o fogata, donde los Qolqas, los Chunchus y los Maqtas escenifican el purgatorio, haciendo alarde de sus picardías, carreras y saltos acrobáticos. A partir de las 22:00 horas el Prioste con su banda de músicos y comparsas dan la serenata a la Virgen, interpretando el punchauniykipi, hasta el amanecer del día 16 que es el día central de esta hermosa festividad que es visitada por sus fieles que llegan de diversas partes del Perú y del mundo, la mamacha Carmen convoca verdaderas masas humanas de feligreses. Es día de víspera, por la noche, entre plegarias y cánticos la virgen es venerada por sus fieles devotos, se escuchan estallidos de cohetes, la plaza de la Almudena está completamente colmada, más tarde, se efectúa la quema de castillos y fuegos artificiales, mientras que las diferentes danzas y comparsas se ponen de manifiesto, el público se deleita plácidamente con los diferentes espectáculos, saboreando los ponches bien calientes, y a media noche se sirve el caldo de gallina ofrecida por los mayordomos, muchos amanecen agotados. El día central (día 9), en horas de la mañana, se realiza la Solemne Misa de fiesta en plena plaza de la Almudena, en un altar muy especial instalado para ese día; la feligresía en general, visitantes nacionales y extranjeros se abarrotan al ardor religioso. La virgen luce la Banda de la alcaldía, rodeada de bellas y multicolores flores; antes lucía bellos trajes confeccionados por los artesanos cusqueños; sin embargo autoridades entendidas en el patrimonio cultural propusieron que ya no se colocara más ropaje. Después de la Santa Misa, la virgen es cargada en hombros en procesión por el centro histórico del Cusco, acompañada por la gran multitud y las diferentes comparsas dancísticas. Cabe remarcar, antiguamente, las danzas que acompañaban a la Virgen eran típicas y autóctonas, con el pasar del tiempo perdió originalidad, incursionando danzas foráneas, provenientes del altiplano (Puno), Sayas, Diabladas, Caporales, bailados por los mismos puneños, y hoy por cusqueños, quedando postergado muchas danzas originarias, otras que subsisten, y se resisten ser aplastados por los ocupantes como: Los Siqllas, Majeño, Qoyacha, Chapaq Qolla, etc."
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </ScrollView>
+
+    <ahmed.easyslider.EasySlider
+        android:layout_width="387dp"
+        android:layout_height="284dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        android:id="@+id/sliderId">
+
+    </ahmed.easyslider.EasySlider>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_02"
+    tools:context=".septiembre_srhuanca">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="377dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954">
+
+        <TextView
+            android:id="@+id/receipt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:text="El Señor de Huanca es una advocación de Cristo martirizado que se venera en la localidad cusqueña de Huanca y es venerada por peruanos en el Perú y en el exterior por ser considerada milagrosa. La festividad es celebrada cada 14 de septiembre, caracterizada por una peregrinación multitudinaria de devotos del Cusco, Perú e incluso de diferentes lugares como Bolivia, Paraguay, Argentina y Chile, se dirigen al Santuario de Huanca para recibir bendiciones. Amanece en el santuario y la luz encuentra a cientos de peregrinos arrodillados al calor de unas velas, siempre abrazados a una imagen, a una oración, a su fe. Allí se encuentra la piedra pintada con el motivo de tanta veneración: un Cristo agobiado por los azotes, el Señor de Huanca. El santuario del Señor de Huanca está ubicado a 48 Km. de la ciudad del Cusco a 3,100 m.s.n.m. en el distrito de San Salvador, provincia de Calca en el departamento de Cusco. Para llegar hasta este sagrado lugar algunos lo hacen en auto, muchos a pie. Los más devotos llegan caminando desde la Ciudad Imperial, lo que les toma entre cuatro y seis horas. Por eso, y por la cantidad de fieles que tiene en el Perú, Argentina, Paraguay, Bolivia y Chile, la peregrinación al Señor de Huanca es una de las más significativas del país y, también, una de las más esperadas. Desde Cusco, toma de 4 a 6 horas de caminata para llegar a El Señor de Huanca y 45 min a 1 hora en carro. Existen varias versiones sobre cómo se inició la devoción por la imagen de la piedra. Se cuentan básicamente dos, por eso cree que son las principales. La primera historia fue allá por 1675. Diego, un indio cansado de los maltratos de los españoles, escapó hasta Huanca y rezó durante todo el día para que no lo encontraran. Y así fue. Luego se aparecería ante él la imagen del Cristo ensangrentado. Asombrado por el milagro, Diego envió un pintor a aquel preciso lugar para que reprodujera lo que había visto. Donde se pintó la piedra, se construyó una capilla que luego se volvería el santuario. La otra versión del origen de la devoción: Un boliviano llamado don Pedro Valero, desahuciado él, conoció a un doctor extranjero que, milagrosamente, lo salvó después de brindarle un tratamiento de aguas. A cambio, el médico, que respondía al nombre de Enmanuel, solo pidió que Valero fuera a visitarlo a su casa en Huanca. Grande fue su sorpresa cuando, en 1778, llegó al lugar y los pobladores le dijeron que en esa localidad no había nada, tan solo una capilla abandonada. Terco fue hasta el sitio señalado y halló una piedra pintada con un Jesucristo azotado. Lo increíble fue que el rostro del hijo de Dios era el mismo de la persona que lo había sanado. En la zona comercial donde decenas de puestos ofrecen a los fieles pequeñas representaciones, a manera de juguetes, de lo que desean pedirle al Señor. Luego ellos llevan los objetos para que sean bendecidos por el obispo: casas, vehículos, tiendas de abarrotes, pasaportes para los viajeros, títulos universitarios, millones de soles, dólares y euros; botiquines, celulares y cualquier cosa que se pueda imaginar, cualquier cosa que se pueda pedir. La misa está por terminar y todos los presentes esperan la bendición: la avalancha humana se lanza tras una gota de agua bendita. No hay para todos, pero eso no importa porque igual se marcharán con la gracia del Señor de Huanca. Por lo general, los peregrinos suelen llegar días antes y quedarse algunos después del 14 de setiembre, fecha central de la celebración. Duermen en carpas, cerca del parque Siloe, donde reposa el agua del Señor de Huanca. Más de uno está convencido de que se sanaron milagrosamente después de lavarse la cabeza en este recinto. Cada 14, la imagen llega a este lugar en procesión y bendice el agua. Luego se encuentra con la Virgen Dolorosa en el frontis del santuario, para después guardarse hasta el año que viene."
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </ScrollView>
+
+    <ahmed.easyslider.EasySlider
+        android:layout_width="387dp"
+        android:layout_height="284dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        android:id="@+id/sliderId">
+
+    </ahmed.easyslider.EasySlider>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

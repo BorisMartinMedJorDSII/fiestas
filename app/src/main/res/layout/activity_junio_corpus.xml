@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_02"
+    tools:context=".junio_corpus">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="377dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954">
+
+        <TextView
+            android:id="@+id/receipt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:text="La festividad del Corpus Christi se realiza en Junio, la fecha es movible.El Corpus Christi Cusqueño es la fiesta religiosa más importante del Cusco aunque esta fecha siempre cae en Jueves, la fiesta comienza un día antes con las tradicionales entradas. El Miércoles (día anterior al Corpus Christi) se da inicio con la entrada de los santos a la catedral de la ciudad, acompañados de mayordomos, fieles, bandas de músicos y danzas. En el día central se realiza la fastuosa procesión de las quince imágenes de santos y vírgenes provenientes de igual numero de parroquias del Cusco, encabeza la procesión la carroza de plata que porta la custodia. Después de siete días (la octava), los santos vuelven a salir en procesión antes de regresar a sus lugares de procedencia, dónde permanecerán por el resto del año. Origen Del Corpus Cusqueño, Cuando los españoles llegaron al Cusco, se sorprendieron al enterarse que los hijos del Sol sacaban en procesión a las momias de los Incas; entonces, blandiendo los evangelios, decidieron terminar para siempre con la fiesta pagana. La solución de los misioneros que acompañaban a los conquistadores fue muy simple: reemplazar los venerados restos por imágenes de la virgen y los santos católicos. Así nació el Corpus Christi en la antigua capital del Tawantinsuyo, una celebración católica que se impregnó de matices andinos. Hoy, la festividad es importante en la población común y corriente que habita en la jurisdicción de las diferentes parroquias del Qosqo; los preparativos se inician con semanas y aun meses de anticipación para lo que existe una organización tradicional comandada por el mayordomo (carguyoq) que es la persona que acepta el cargo, la responsabilidad y obligación para costear la mayor parte de los gastos de la festividad que entre otros incluye misas, vestimenta nueva para la Virgen o el Santo de la Parroquia, el contrato con una banda de músicos (q'aperos) para acompañar la procesión, una orquesta típica para la celebración de la fiesta, comida para los invitados, aguardiente, chicha y cerveza, recordatorios, etc. El día miércoles un día anterior al Corpus Christi se realiza la entrada de las imágenes que salen en procesión de sus parroquias acompañadas del cura, los vecinos, los mayordomos que portan en el pecho las demandas que son distintivos o estandartes a veces de plata con la imagen de la Virgen o Santo, para dirigirse a la Catedral donde la imagen ser depositada hasta el día siguiente en que se realiza la procesión principal. En esta entrada de santos es celebre y espectacular la carrera que emprenden San Sebastián y San Jerónimo para tratar de llegar primero a la Catedral de la ciudad; temprano de madrugada parte la imagen de San Jerónimo desde el distrito del mismo nombre distante a unos 10 Kms. en el distrito de San Sebastián a unos 5 Kms. la imagen del pueblo ya esta en la pista, y así a la llegada de la otra imagen se inicia una loca carrera por la Av. de la Cultura hacia la Plaza de Armas. En este día, en las cercanías de la Plaza de Armas muchos comerciantes han colocado sus stands de comida típica para los asistentes a la entrada, donde se sirve el tradicional Chiri Uchu o Aji Frio que consiste en pequeños trozos de cuy asado, pollo, ch'arki, embutidos, cau-cau, queso, torrejas de harina de maíz, maíz tostado, qocha-yuyo y rocoto; otros stands también sirven chicharrones, anticuchos, etc.; y por supuesto cerveza y chicha. Luego del ingreso de las imágenes a la Catedral, el pueblo dará rienda suelta a sus gustos gastronomicos y su sed de alcohol. Al medio día, se inicia con la procesión de Santos y Vírgenes en la Plaza de Armas donde se han congregado miles de personas. La tradición tiene un orden establecido para la procesión desde el tiempo de la colonia, de tal modo que el orden de salida de las imágenes es el siguiente; San Antonio de la parroquia de San Cristóbal, San Jerónimo de la parroquia del distrito de San Jerónimo, San Cristóbal de la parroquia de San Cristóbal, San Sebastián de la parroquia del distrito de San Sebastián, Santa Bárbara de la parroquia del distrito de Poroy, Santa Ana de la parroquia de Santa Ana, Santiago Apóstol de la parroquia de Santiago, San Blas de la parroquia de San Blas, San Pedro de la parroquia de San Pedro, San José de la parroquia de Belén, Virgen de la Natividad de la parroquia de Almudena, Virgen de los Remedios de la iglesia de Santa Catalina, Virgen Purificada de la parroquia de San Pedro, Virgen de Belén de la parroquia de Belén, Virgen de la Inmaculada Concepción llamada también La Linda de la Catedral. Luego de la procesión de imágenes, estas son guardadas dentro de la Catedral donde permanecerán hasta la octava, es decir hasta ocho días después del Corpus Christi. El día de la octava se inicia con otra procesión del Santísimo seguido por los diversos Santos y Vírgenes que retornaran a sus parroquias de origen una vez concluida la procesión. Ya en la parroquia de la imagen, en la efervescencia de la fiesta y en medio de la algarabía con música y alcohol, se comprometerá al nuevo mayordomo o carguyoq, vale decir a la persona que costear los gastos de la festividad para el próximo año."
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </ScrollView>
+
+    <ahmed.easyslider.EasySlider
+        android:layout_width="387dp"
+        android:layout_height="284dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        android:id="@+id/sliderId">
+
+    </ahmed.easyslider.EasySlider>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

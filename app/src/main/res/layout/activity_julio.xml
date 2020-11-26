@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_02"
+    tools:context=".julio">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="377dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954">
+
+        <TextView
+            android:id="@+id/receipt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:text="Entre el 15 y 18 de Julio de todos los años, miles de devotos y visitantes se congregan para celebrar la Festividad de la Virgen del Carmen esta festividad se realiza cada año en el pueblo colonial de Paucartambo a 110 Km. de la ciudad del Cusco, es una típica y hermosa ciudad de adobe y teja. La festividad de la Virgen del Carmen en Paucartambo Cusco, es una celebración que convoca a muchos feligreses y visitantes de todas partes del mundo encabezando por el pueblo y sus 12 grupos de danzarines que irradian fe, encanto, color y jubilo. Danzas que se brindan a la Virgencita sacrificio de los fieles que realizan con cariño y devoción a la Mamacha Carmen a cambio de su bendición y su protección. Celebración mágica y real a la vez tiene un profundo significado religioso, social y ritual donde se puede observar cómo se mantiene la identidad y costumbre de los pueblos andinos-mestizos claramente observado en la guerrilla de los Qollas del altiplano y Chunchus del oriente donde ambas naciones disputan la querencia de la Mamacha del Carmen realizada sobre el puente colonial Carlos III. Paucartambo localizado a 109 kilómetros de la ciudad del Cusco, a 2.830 m.s.n.m. típica y hermosa ciudad de casitas blancas de adobe y teja con balcones de madera color celeste y famosa por la festividad de la Virgen del Carmen con su hermoso puente Carlos III, joya de la arquitectura colonial construida sobre el rio Mapacho, por disposición del rey Carlos III de España en el año 1,775, está edificada de cal y canto, presenta un arco ojival para mayor resistencia, su construcción fue realizada en seco desviando el río, esta obra duró 5 años y dio nacimiento al nuevo Paucartambo de trazos españoles rectos. La entrada de esta fastuosa fiesta comienza el 15 de julio, se da inicio con el estallido de un cohete, el mismo que es contestado por cameretazos y repique de campanas, la interpretación de dianas a cargo de las bandas musicales; seguidamente se efectúa la entrada de comparsas y el cera apaycuy, la noche es oportuna para iniciar el qonoy o fogata, donde los Q’olqas, los Chunchus y los Maqtas escenifican el purgatorio, haciendo alarde de sus picardías, carreras y saltos acrobáticos. A partir de las 22:00 horas el Prioste con su banda de músicos y comparsas dan la serenata a la Virgen, interpretando el punchauniykipi, hasta el amanecer del día 16 que es el día central de esta hermosa festividad que es visitada por sus fieles que llegan de diversas partes del Perú y del mundo, la mamacha Carmen convoca verdaderas masas humanas de feligreses. El día central comienza las 5 de la mañana del día 16 de julio con una misa de Aurora y a las 10 de la mañana la esperada misa de fiesta donde resaltan hermosas canciones de los Qollas y los Qhapac negros, concluida la misa de fiesta, las comparsas danzan en calles y plazas; bajo la autoridad del Prioste se realiza el bosque donde los Qollas desde un balcón arrojan muñecas y muebles en miniatura. Llegado el mediodía en la casa del Prioste se distribuye el once, entre los fundadores, danzarines y músicos de todas las comparsas. La gran procesión de la virgen del Carmen se da inicio a las 3 p.m. y en los tejados y balcones, los saq’ras esperan a la mamacha, haciendo además de esconderse. El 17 de julio es el día de la Bendición y guerrilla , después de la misa y bendición , las comparsas se dirigen al cementerio en pasacalle para visitar a los danzarines fallecidos en medio de cánticos y recuerdos. Luego de ello la gran caravana visita la cárcel para ofrecer momentos de regocijo a los enclaustrados. En la tarde se realiza la segunda procesión recorriendo el tramo del puente Carlos III, en este lugar la Virgen imparte su bendición a los cuatro suyos. Concluida la procesión la población se dirige a la plaza para asistir a la tradicional guerrilla entre los Qollas y los Antis, en esta ocasión también participan los Saqras y Wakas wakas, después los asistentes participan en una Qhaswa o fiesta generalizada. El 18 de julio la Virgen es colocada en el bautismerio del templo, a cuyo pie se realiza el tradicional ocarikuy, que consiste en la representación de niños y adolescentes para ser bendecidos por el sacerdote. A las 4 de la tarde culminan los festejos con una bendición de la Virgen a la población. El 19 de julio es el día de la entonación, a las 11 de la mañana la mamacha Carmen es colocada en su altar donde se le cambia con la ropa de Chamba, ceremonia especial protagonizada por los priostes salientes y entrantes. En síntesis, la festividad es muy fastuosa, variada y colorida, oportunidad donde se lucen las siguientes comparsas: Maqtas, Auquachileno, Contradanza, Danzaq, Chunchachas, Chukchu, Kachampa, Majeño, Panadero, Qhapac negro, Qhapac chuncho, Qhapac Qolla, Qoyacha, Saqra, Siclla Huayra o Doctorcito y Waca Waca. Tres Cruces; partiendo de Paucartambo, un estrecho camino afirmado asciende hacia el abra de Acjanaco (3.800 m.s.n.m.) y el Mirador de Tres Cruces, una suerte de balcón natural orientado hacia la Amazonia desde donde se aprecia uno de los amaneceres más singulares del mundo, producido por los efectos ópticos del sol que parece reverberar sobre las nubes que cubren la selva tropical."
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </ScrollView>
+
+    <ahmed.easyslider.EasySlider
+        android:layout_width="387dp"
+        android:layout_height="284dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        android:id="@+id/sliderId">
+
+    </ahmed.easyslider.EasySlider>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

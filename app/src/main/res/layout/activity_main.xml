@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_01"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="393dp"
+        android:layout_height="326dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="carnavales"
+                app:srcCompat="@drawable/feb_carnav1" />
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="semanasanta"
+                app:srcCompat="@drawable/abr_semsant2" />
+
+            <ImageButton
+                android:id="@+id/imageButton16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="cruzvelacuy"
+                app:srcCompat="@drawable/may_crxvela3" />
+
+            <ImageButton
+                android:id="@+id/imageButton17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="qoyllority"
+                app:srcCompat="@drawable/junio_qoyllority4_1" />
+
+            <ImageButton
+                android:id="@+id/imageButton18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="corpuschristi"
+                app:srcCompat="@drawable/junio_corpuschristi4" />
+
+            <ImageButton
+                android:id="@+id/imageButton19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="intiraymi"
+                app:srcCompat="@drawable/junio_intiraymi2_4" />
+
+            <ImageButton
+                android:id="@+id/imageButton20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="virgendelcarmen"
+                app:srcCompat="@drawable/julio_virgendelcarmen5" />
+
+            <ImageButton
+                android:id="@+id/imageButton21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="ofrendapachamama"
+                app:srcCompat="@drawable/agosto_ofrendapachamama6" />
+
+            <ImageButton
+                android:id="@+id/imageButton22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="virgennatividad"
+                app:srcCompat="@drawable/septi_virgennatividad7" />
+
+            <ImageButton
+                android:id="@+id/imageButton23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="srhuanca"
+                app:srcCompat="@drawable/septi_srhuanca8" />
+
+            <ImageButton
+                android:id="@+id/imageButton24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="todossantos"
+                app:srcCompat="@drawable/noviem_todossantos9" />
+
+            <ImageButton
+                android:id="@+id/imageButton25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="santurantikuy"
+                app:srcCompat="@drawable/diciem_santurantikuy10" />
+        </LinearLayout>
+    </ScrollView>
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="413dp"
+        android:layout_height="271dp"
+        android:layout_marginBottom="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

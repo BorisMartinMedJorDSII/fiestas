@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_02"
+    tools:context=".mayo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="377dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954">
+
+        <TextView
+            android:id="@+id/receipt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:text="Al llegar los españoles a nuestras tierras, una de los primeros elementos católicas utilizados con mucha eficacia fue la Cruz, en el caso del Tawantinsuyo, las cruces se ubicaron en los diversos lugares y sitios sagrados, que eran morada o adoratorio de los dioses andinos, al ser un símbolo del bien contra el mal, está presente en todas partes y en todo momento, mereciendo permanentemente la invocación espiritual y la celebración externa en diferentes ocasiones. Esta fiesta se origina en las primeras décadas del siglo XVIII. Cuando en ese entonces era una festividad privada familiar relativamente humilde y/o modesto sin la magnificencia que la tiene hoy en día. La cruz es un símbolo del cristianismo de igual manera para los católicos es la representación de la pasión de Jesucristo, luego de producirse la conquista española, la cruz fue uno de los elementos de lucha y riña ideológica para evangelizar a los americanos y también para facilitar a su sumisión, así su adoración y su uso fueron obligatorios en el nuevo mundo, los extirpadores de idolatrías (sacerdotes católicos ) al destruir sus santuarios incas (ídolos incas) tuvieron mucho cuidado en colocar cruces en su lugar. La celebración de la cruz normalmente tiene un mayordomo o carguyoq la persona quien acepto voluntariamente organizar y costear la mayor parte de los gastos para la celebración, quien casi siempre es una persona con recursos y propietario de una casa donde se levantara un altar para la cruz. El inicio de la festividad es el día 2 de mayo con el traslado o bajada de la cruces desde las cumbres de los cerros o santuarios donde se encuentran.
+Cruz Velacuy En Paruro, Mayo mes en que los campos, comienza el calcheo o recoger los maíces o cosecha la festividad de la santísima cruz es muy interesante, pues todas las cruces son iluminadas y esto se llama la fiesta del cruz velacuy o velación de la cruz es una de las festividades en la provincia de Paruro distrito del mismo nombre que se festeja con bastante solemnidad ya que las cruces según la ideología católica, son los protectores contra toda calamidad, Paruro con referencia a dicha festividad, cuenta con un cerro importante llamado crustero esta denominación debido a que dicha elevación tiene la forma de cruz y además por la presencia de cruces en la cúspide de esta elevación. La cruz es trasladada a la casa del mayordomo, casa donde es recibido con los honores de tradición. Después del traslado prosiguen con el adorno de la cruz, el cual consiste en embellecer como es costumbre con ramas de arrayán que tiene un color verdusco, retama floreciente. Flores como claveles, geranios, margaritas y rosas es también puesto con un paño flameante de igual manera es preparado su altar donde horas mas tarde será velado. Esa noche se lleva a cabo la velada que es acudido por todo el barrio, los mayordomos pasados, familiares, etc. La cual consiste a su vez de hacer vigilia de la cruz, toda la noche, se enciende una fogata delante del altar que en la Provincia Paruro lo llaman el cconucuy que es traer el tronco de buen grosor que dicen machu ccuyu que es su forma castellanizada seria tronco viejo. En la festividad de la cruz es infaltable la chicha parureña o quellu aja es una de la bebida que es imprescindible y hecho naturalmente. La alegría continúa al compás de una orquesta (arpa, violín, quenas y acordeón) que tocan temas populares para todos los asistentes que danzan muy animados, también se bebe ponches con aguardiente y pisco. A media noche se degusta el caldo de cordero y el cancacho parureño con todos los presentes, esa misma noche también se da a conocer al mayordomo para el próximo año. Continúa la algarabía y se prolonga hasta el amanecer, el día 3 de mayo que es el día central se celebra un ritual católico andino que es la celebración de misa en la iglesia de la Provincia de Paruro, para lo cual la cruz es trasladad en procesión acompañado por una banda autóctona del lugar. En seguida la cruz retorna a la casa del mayordomo también llamado cargo wasi donde se pone una vez más en su altar. Al medio día los mayordomos ofrecen un almuerzo de festividad y durante la tarde sigue la fiesta con mucha bebida y música, al día siguiente es el kacharpari (el adiós de la fiesta) se lleva a cabo durante la mañana hasta el mediodía donde se traslada la cruz a su lugar de origen donde estará hasta el próximo año."
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </ScrollView>
+
+    <ahmed.easyslider.EasySlider
+        android:layout_width="387dp"
+        android:layout_height="284dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        android:id="@+id/sliderId">
+
+    </ahmed.easyslider.EasySlider>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

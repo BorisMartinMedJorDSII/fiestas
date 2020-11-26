@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_02"
+    tools:context=".junio_inti">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="377dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954">
+
+        <TextView
+            android:id="@+id/receipt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:text="El Inti Raymi es una fiesta que celebra al dios Sol de los incas, en la actualidad se recrea el 24 de junio de cada año como la festividad más solemne y grandiosa del desaparecido Imperio incaico. El Inti Raymi es una fiesta celebrada desde el tiempo de los incas durante el solsticio de invierno para adorar al dios Sol, implica coloridos trajes, banquetes de lujo, música festiva, y recreaciones históricas. El escenario del Inti Raymi es la fortaleza de Sacsayhuamán, ubicada en la zona norte de la ciudad del Cusco, según el Inca Gracilazo de la Vega, Sacsayhuamán es la obra mayor y más soberbia que los incas mandaron construir para mostrar su poder y majestad. INTI RAYMI EN LA EPOCA DE LOS INCAS; El sol se iba alejando (junio - solsticio de invierno), el frio aumentaba, en los amaneceres el agua estaba escarchada, por tanto, había que pedirle al Sol que volviera, que al rayar los crepúsculos matutinos no siguieran avanzando hacia el norte. Finalmente, había que testimoniarle al dios Inti, la eternidad y total entrega de sus hijos, con sumisión y respeto. El Inka Pachakuteq mandó a construir el Qorikancha, un fastuoso templo dedicado a reverenciar al Sol, dios al que los inkas denominaban Apu P`unchao o Apu Inti, en cuyo honor fue consagrada la imponente fiesta del INTI RAYMI, que alcanza contornos de solemnidad y esplendor, tal como describen los más importantes cronistas. Hace más de seis siglos, el Inka Pachakuteq instituyó la Fiesta al dios Sol y hoy en dia los cusqueños lo siguen representando con el mismo fervor con el que sus ancestros lo realizaban. INTI RAYMI EN LA ACTUALIDAD, El pueblo del Cusco se prepara para la fiesta desde muchos días antes del 24 de junio, fecha en la que colma la explanada frente a la cual se levanta la fortaleza de Sacsayhuamán. Al compás de milenarios aires musicales, delegados de los cuatro suyos desfilan con sus vestimentas típicas, y también, como venidas de otros tiempos, ñustas, coyas y pallas, las cuales avanzan en ondulantes columnas. Finalmente, de pronto, el Inca se deja ver. El soberano es transportado sobre una litera -que en la época legendaria era de oro y plata- y acompañado de un séquito de orejones y otros dignatarios que caminan a respetable distancia de él. La fiesta en honor al dios Sol, se realiza en presencia del Inca, el Willaq Uma o Sumo Sacerdote, Tarpuntay, Wirapirikuq y Kallparikuy, al igual que los nobles y representantes de las panacas, para lo cual se utilizan tres impresionantes escenarios históricos y naturales: Qorikancha (Cerco de oro): Templo principal del Cusco dedicado al Sol, donde se dice estaba el jardín de oro (aquí se realizaban los primeros rituales del culto al Apu Inti y a la Pacha Mama, donde fueron enterradas cuantiosas ofrendas, cuyas evidencias halladas en 1972 se encuentran en el Museo Garcilaso del INC). Plaza de armas, La Plaza Mayor (el antiguo Auqaypata o Plaza del Guerrero): En tiempo de los Incas, en esta inmensa plaza se desarrollaba íntegramente la ceremonia en medio del gran USHNU (plataforma ceremonial). Saqsaywaman (voz que deriva de los términos quechuas saqsay y waman, que traducido al español significa sacíate halcón). Se encuentra a 3,555 m.s.n.m., a un kilómetro del barrio inca de Qollqanpata. Fue la Real Casa del Sol y templo consagrado al Rayo, según Garcilaso. Aquí desde 1944 tiene lugar la parte central del Inti Raymi contemporáneo ante una impresionante multitud. Con casi sesenta años de existencia, el nuevo Inti Raymi es ahora parte inseparable de la vida del Cusco. No sólo es el acto central del mes en la ciudad, sino que su fama ha trascendido las fronteras peruanas y también, dentro de ellas, ha sido el ejemplo para otros festivales de la identidad nacional."            android:textColor="#000000"
+            android:textSize="15dp" />
+    </ScrollView>
+
+    <ahmed.easyslider.EasySlider
+        android:layout_width="387dp"
+        android:layout_height="284dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        android:id="@+id/sliderId">
+
+    </ahmed.easyslider.EasySlider>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
